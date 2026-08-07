@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+*.log
+.memsearch/
+.serena/
+
+# Map assets are fetched, not authored: `pnpm --filter @sim/server tiles`.
+# Vendor them deliberately if you want a zero-setup clone — see
+# server/scripts/fetch-map-assets.mjs.
+server/tiles/*.pmtiles
+server/assets/
